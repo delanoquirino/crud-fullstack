@@ -16,7 +16,7 @@ Requisitos Funcionais:
    
 ### Core technologies
   FrontEnd:
-    - React Hook Form
+      React Hook Form
     - Axios
     - Material Ui
     - Framer Motion
@@ -27,7 +27,7 @@ Requisitos Funcionais:
     - Zod
   
   Backend:
-    - Cors
+      Cors
     - Express"
     - Mysql
     - Nodemon
