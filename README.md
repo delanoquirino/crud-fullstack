@@ -15,7 +15,7 @@ Requisitos Funcionais:
 4. Deletar (Delete): Remover itens.
    
 ### Core technologies
-  FrontEnd:
+  FrontEnd: 
       React Hook Form
     - Axios
     - Material Ui
@@ -26,7 +26,7 @@ Requisitos Funcionais:
     - React Toastify
     - Zod
   
-  Backend:
+  Backend: 
       Cors
     - Express"
     - Mysql
