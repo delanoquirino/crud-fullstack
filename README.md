@@ -28,7 +28,7 @@ Requisitos Funcionais:
   
   Backend: 
       Cors
-    - Express"
+    - Express
     - Mysql
     - Nodemon
     
