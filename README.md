@@ -16,22 +16,22 @@ Requisitos Funcionais:
    
 ### Core technologies
   FrontEnd: 
-      React Hook Form
-    - Axios
-    - Material Ui
-    - Framer Motion
-    - Next
-    - Tailwind
-    - React Icons
-    - React Toastify
-    - Zod
+  - React Hook Form
+  - Axios
+  - Material Ui
+  - Framer Motion
+  - Next
+  - Tailwind
+  - React Icons
+  - React Toastify
+  - Zod
   
   Backend: 
-      Cors
-    - Express
-    - Mysql
-    - Nodemon
-    
+  - Cors
+  - Express
+  - Mysql
+  - Nodemon
+  
 ### 🖥️ Installation
 
 1. Clone this repo
