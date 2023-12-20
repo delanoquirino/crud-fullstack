@@ -2,12 +2,17 @@ import axios from "axios";
 import { toast } from "react-toastify";
 
 import { motion } from "framer-motion";
-import { Button, IconButton } from "@mui/material";
 import { FaEdit, FaTrash } from "react-icons/fa";
+import { useEditUser } from "../context/Context";
+
 export const UserCard = ({ users, setUsers, setOnEdit }) => {
+  const { setSelectedUser } = useEditUser();
   const handleEdit = (item) => {
     setOnEdit(item);
+    setSelectedUser(true)
   };
+
+
   const handleDelete = async (id) => {
     await axios
       .delete("http://localhost:8800/" + id)
@@ -44,20 +49,18 @@ export const UserCard = ({ users, setUsers, setOnEdit }) => {
             </p>
           </div>
           <div className="flex flex-col gap-2">
-            <Button
+            <button
               onClick={() => handleDelete(item.id)}
-              variant="outlined"
-              size="small"
+              
             >
               <FaTrash />
-            </Button>
-            <Button
+            </button>
+            <button
               onClick={() => handleEdit(item)}
-              variant="outlined"
-              size="small"
+             
             >
               <FaEdit />
-            </Button>
+            </button>
           
           </div>
         </motion.article>
