@@ -4,7 +4,7 @@ export const Input = ({name, placeholder, type, register, rules, error}) => {
   return (
     <>
       <input
-        className="w-full border-2 rounded-md h-11 px-2 outline-none"
+        className="w-full border-2 rounded-md h-8 text-xs px-2 outline-none"
         placeholder={placeholder}
         type={type}
         {...register(name, rules)}
